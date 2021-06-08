@@ -108,5 +108,12 @@ static int xmp_rename(const char *from, const char *to)
 ```
 Sebuah direktori akan direname dengan awalan AtoZ. Dan dilakukan perulangan
 ## Kendala: 
+Pada soal no 1, kami mencoba untuk mengganti nama file di dalam folder ```AtoZ_``` dengan enkripsi dalam fungsi ```xmp_readdir```. Kami berhasil mengdebugnya dengan print setiap nama file yang terenkripsi: 
+![image](https://user-images.githubusercontent.com/73151823/121157454-c7929a00-c873-11eb-8b97-56dde4cb9d38.png)
 
+Namun, ketika kami coba lihat menggunakan perintah ```ls```, terjadi error sebagai berikut:
+![image](https://user-images.githubusercontent.com/73151823/121157484-cf523e80-c873-11eb-9f7f-c8deb97798e5.png)
+
+
+Untuk no 2, 3, dan 4 belum kami kerjakan, dikarenakan masih kurang pemahaman dan sumber referensi dalam mengerjakan FUSE
 
